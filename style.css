@@ -1,0 +1,270 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: #111212;
+}
+
+.head {
+  height: 70px;
+  width: 100%;
+  background-color: #1f1919;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.h-left {
+  height: 60px;
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.h-right {
+  height: 60px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.h-l-e {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-image: url("https://asset.brandfetch.io/idhXjxLF9g/idxvsamq5q.png?updated=1674455441748");
+  background-size: cover;
+  background-position: center;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+#hle {
+  height: 50px;
+  width: 150px;
+  margin-top: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255);
+  font-family: Roboto, sans-serif;
+  font-size: 23px;
+}
+
+.s-bar {
+  height: 50px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#s-bar-f {
+  height: 40px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: #0d0c0c;
+  border: 1px solid #3a3636;
+  color: white;
+  font-size: large;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  outline: none;
+  /* z-index:-1; */
+}
+
+form {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sch {
+  background: transparent;
+  object-fit: cover;
+  color: white;
+  position: absolute;
+ right: 695px;
+  /* z-index: 1; */
+}
+
+.sub {
+  margin: 30px;
+  height: 40px;
+  width: 250px;
+  color: whitesmoke;
+  text-align: center;
+  border-right: 1px solid white;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lin {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin: 25px;
+  padding-top: 10px;
+}
+
+.shead {
+  height: 50px;
+  width: 100%;
+  background-color: #141414;
+  position: fixed;
+  top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 0px 5px #3a3636;
+
+}
+
+.child {
+  height: 30px;
+  width: 150px;
+  border-radius: 50%;
+  color: #706161;
+  font-weight: bold;
+  font-size: 18px;
+  /* margin-left:90px;
+  margin-top: 10px; */
+}
+
+.c {
+  color: white;
+}
+.scroll{
+  height: 300px;
+  width:100%;
+ 
+  position: fixed;
+  top: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.auto-scroll{
+  height: 300px;
+  width:60%;
+background-image: url("stwo.png");
+  position: fixed;
+  top: 180px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.l{
+  background-image: url("sone.png");
+  left: 0px;
+  width:18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.r{
+  background-image: url("stre.png");
+  right: 0px;
+  width:18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn-nxt{
+  height: 60px;
+  width:60px;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0.5;
+}
+.songs{
+  height: 200px;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+  
+  position: fixed;
+  top: 500px;
+}
+.song-c{
+  height: 150px;
+  width: 150px;
+ background-color: transparent;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 50px #39d5bb;
+  
+}
+.o{
+  background-image: url("https://cdn.dnaindia.com/sites/default/files/styles/full/public/2015/01/31/306209-khamoshiyan.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.t{
+  background-image: url("t.png");
+  background-position: center;
+  background-size: cover;
+}
+.tr{
+  background-image: url("tr.png");
+  background-position: center;
+  background-size: cover;
+}
+.f{
+  background-image: url("f.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.fi{
+  background-image: url("fi.png");
+  background-position: center;
+  background-size: cover;
+}
+.playx{
+  height: 50px;
+  width:100%;
+  background-color: zinc;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player{
+  height: 50px;
+  width:300px;
+  /* background-color: #5058d3; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mr{
+  background: transparent;
+  border: none;
+ height: 30px;
+  width: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.play{
+  background-image: url("play.png");
+  
+}
+.back{
+  background-image: url("left.png");
+  
+}
+.front{
+  background-image: url("right.png");
+}
