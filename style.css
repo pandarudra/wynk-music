@@ -78,7 +78,6 @@ body {
 }
 
 form {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +88,7 @@ form {
   object-fit: cover;
   color: white;
   position: absolute;
- right: 695px;
+  right: 695px;
   /* z-index: 1; */
 }
 
@@ -125,7 +124,6 @@ form {
   justify-content: space-evenly;
   align-items: center;
   box-shadow: 0px 0px 5px #3a3636;
-
 }
 
 .child {
@@ -138,101 +136,101 @@ form {
   /* margin-left:90px;
   margin-top: 10px; */
 }
-
+.child:hover {
+  color: white;
+}
 .c {
   color: white;
 }
-.scroll{
+.scroll {
   height: 300px;
-  width:100%;
- 
+  width: 100%;
+
   position: fixed;
   top: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.auto-scroll{
+.auto-scroll {
   height: 300px;
-  width:60%;
-background-image: url("stwo.png");
+  width: 60%;
+  background-image: url("stwo.png");
   position: fixed;
   top: 180px;
   background-position: center;
   background-size: cover;
   border-radius: 10px;
 }
-.l{
+.l {
   background-image: url("sone.png");
   left: 0px;
-  width:18%;
+  width: 18%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.r{
+.r {
   background-image: url("stre.png");
   right: 0px;
-  width:18%;
+  width: 18%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#btn-nxt{
+#btn-nxt {
   height: 60px;
-  width:60px;
+  width: 60px;
   border-radius: 50%;
   background-color: black;
   opacity: 0.5;
 }
-.songs{
+.songs {
   height: 200px;
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
-  
+
   position: fixed;
   top: 500px;
 }
-.song-c{
+.song-c {
   height: 150px;
   width: 150px;
- background-color: transparent;
+  background-color: transparent;
   margin: 20px;
   border-radius: 15px;
   box-shadow: 3px 3px 50px #39d5bb;
-  
 }
-.o{
+.o {
   background-image: url("https://cdn.dnaindia.com/sites/default/files/styles/full/public/2015/01/31/306209-khamoshiyan.jpg");
   background-position: center;
   background-size: cover;
 }
-.t{
+.t {
   background-image: url("t.png");
   background-position: center;
   background-size: cover;
 }
-.tr{
+.tr {
   background-image: url("tr.png");
   background-position: center;
   background-size: cover;
 }
-.f{
+.f {
   background-image: url("f.png");
   background-position: center;
   background-size: cover;
 }
 
-.fi{
+.fi {
   background-image: url("fi.png");
   background-position: center;
   background-size: cover;
 }
-.playx{
+.playx {
   height: 50px;
-  width:100%;
+  width: 100%;
   background-color: zinc;
   position: fixed;
   bottom: 0px;
@@ -240,31 +238,29 @@ background-image: url("stwo.png");
   justify-content: center;
   align-items: center;
 }
-.player{
+.player {
   height: 50px;
-  width:300px;
+  width: 300px;
   /* background-color: #5058d3; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.mr{
+.mr {
   background: transparent;
   border: none;
- height: 30px;
+  height: 30px;
   width: 30px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.play{
+.play {
   background-image: url("play.png");
-  
 }
-.back{
+.back {
   background-image: url("left.png");
-  
 }
-.front{
+.front {
   background-image: url("right.png");
 }
