@@ -200,7 +200,10 @@ form {
   background-color: transparent;
   margin: 20px;
   border-radius: 15px;
-  box-shadow: 3px 3px 50px #39d5bb;
+  box-shadow: 3px 3px 50px #a439d5;
+}
+.song-c:hover {
+  box-shadow: 3px 3px 50px #a439d5;
 }
 .o {
   background-image: url("https://cdn.dnaindia.com/sites/default/files/styles/full/public/2015/01/31/306209-khamoshiyan.jpg");
