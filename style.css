@@ -190,8 +190,8 @@ form {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-
-  position: fixed;
+  flex-wrap: wrap;
+  position: absolute;
   top: 500px;
 }
 .song-c {
@@ -200,10 +200,10 @@ form {
   background-color: transparent;
   margin: 20px;
   border-radius: 15px;
-  box-shadow: 3px 3px 50px #a439d5;
+  /* box-shadow: 3px 3px 50px #ffd6ff; */
 }
 .song-c:hover {
-  box-shadow: 3px 3px 50px #a439d5;
+  box-shadow: 3px 3px 50px #ffd6ff;
 }
 .o {
   background-image: url("https://cdn.dnaindia.com/sites/default/files/styles/full/public/2015/01/31/306209-khamoshiyan.jpg");
@@ -234,7 +234,7 @@ form {
 .playx {
   height: 50px;
   width: 100%;
-  background-color: zinc;
+  background-color: #1f1919;
   position: fixed;
   bottom: 0px;
   display: flex;
@@ -244,7 +244,7 @@ form {
 .player {
   height: 50px;
   width: 300px;
-  /* background-color: #5058d3; */
+
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -266,4 +266,46 @@ form {
 }
 .front {
   background-image: url("right.png");
+}
+
+@media screen and (max-width: 600px) {
+  .scroll {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .songs {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+    height: auto;
+    top: 3.5rem;
+    padding-bottom: 3rem;
+  }
+  .song-c {
+    width: 20rem;
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .shead {
+    display: none;
+  }
+  .head {
+    position: fixed;
+    z-index: 1;
+  }
+  .h-right {
+    display: none;
+  }
+  .h-left {
+    margin: 0px;
+    width: 100%;
+  }
+  #hle {
+    padding-top: 1rem;
+  }
 }
